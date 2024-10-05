@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../Soligant_1-1/Soligant.ttf");
+  }
+  /*...............................................................................................
+     [Slick Slider]
+  ................................................................................................*/
+  .slick-initialized .slick-slide {
+    margin-right: 30px !important;
+  }
+  .slick-prev,
+  .slick-next {
+    background: var(--primary-black) !important;
+    height: 30px !important;
+    width: 30px !important;
+    top: auto;
+    bottom: -50px;
+    right: 35px;
+    z-index: 10;
+    color: var(--primary-gold) !important;
+  }
+  .slick-prev {
+    left: auto;
+    right: 67px;
+    content: "PREV";
+  }
+  .slide_next_prev {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    bottom: -60px;
+    left: 0px;
+  }
+  .slick_button {
+    height: 40px;
+    width: 40px;
+    background: #000;
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.2s ease-in;
+  }
+  .slick_button:hover {
+    color: var(--primary-gold);
+    transition: color 0.2s ease-in;
+  }
+  
+  .transitionscale-child {
+    transition: transform 0.3s ease;
+  }
+  .transitionscale-parent:hover .transitionscale-child {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  

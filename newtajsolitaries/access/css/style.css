@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: "Soligant";
+    src: url("../font/Soligant/Soligant.otf");
+}
+
+:root {
+    --primary-gold: #a28f57;
+    --primary-white: #ffffff;
+    --primary-black: #060d27;
+    --primary-black2: #30373E;
+    --primary-light-border: #ebebeb;
+    --primary-gray: #F3F4F7;
+    --primary-back-offwhite: #F8F6F4;
+    --primary-rating: #EBB837;
+    --primary-video-dark-green: #354837;
+    --primary-box-shadow: 0px 3px 8px 0px rgb(170 170 170 / 20%);
+    --primary-box-shadow-con: 0 0 15px rgb(0 0 0 / 10%);
+    --primary-font: 'Roboto', sans-serif;
+    --primary-font-title: Soligant;
+}
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--primary-font);
+    color: var(--primary-black2);
+    background-color: #fff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary-black);
+}
+
+.button {
+    height: 40px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-family: var(--primary-font);
+    margin-top: 20px;
+    outline: 0;
+    transition: background 0.5s ease;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+}
+
+.button:hover {
+    background: var(--primary-gold);
+    transition: background 0.5s ease;
+}
+
+/* common design */
+.d-flex {
+    display: flex;
+}
+
+.j-sb {
+    justify-content: space-between;
+}
+
+.j-c {
+    justify-content: center;
+}
+
+.j-f {
+    justify-content: flex-start;
+}
+
+.j-e {
+    justify-content: flex-end;
+}
+
+.a-ic {
+    align-items: center;
+}
+
+.a-is {
+    align-items: flex-start;
+}
+
+.a-ie {
+    align-items: flex-end;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.subcontainer {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.slick_slider_anchor_con {
+    position: absolute;
+    right: 0px;
+    bottom: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick_slider_anchor_con_top {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px dashed var(--primary-black2);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+}
+
+.slick_slider_anchor_con_top a {
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.slick_slider_anchor_con_bottom {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px dashed var(--primary-black2);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+}
+/*==============*/

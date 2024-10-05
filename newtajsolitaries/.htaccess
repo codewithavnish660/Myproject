@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+#Return 404 if original request is .html
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.html[? ].*$"
+RewriteRule .* - [L,R=404]
+
+
